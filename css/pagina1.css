@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: gray;
+    background-image: url(../recursos/fondo-parcial.jpg);
+}
+div,body{
+    box-sizing: border-box;
+}
+hr{
+
+    display: inline-block;
+    
+
+}
+.main-wrapper,header,footer{
+    width: 100%;
+    text-align: center;
+}
+h1,h2,h3,h4{
+
+    text-wrap: balance;
+}
+p{
+    text-wrap:balance ;
+}
+.header{
+
+    padding: 0;
+ 
+}
+.main-wrapper{
+    max-width: 1024px;
+    margin-top: auto;
+}
+.main-navbar>h6>h1{
+    
+    margin: 4px;
+}
+.main-navbar{
+
+    display: flex;
+    padding: 0  ;
+    justify-content: center;
+    align-items: center;
+}
+.main-navbar {
+    color:#FCDE70;
+    display: inline-block;
+    padding: 6px 9px;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    opacity: 0.7;
+}
+/*main section*/
+.main-wrapper{
+    display: flex;
+    flex-grow: 1;
+flex-wrap: wrap;
+justify-content: center;
+}
+aside,main{
+
+    padding: 10px 20px;
+    flex-basis: 0;
+    background-color: #fff;
+    object-fit: cover;
+}
+main{
+    min-width: 300px;
+    flex-grow: 2;
+    background-color: #333;
+    color: #fff;
+}
+
+.main-wrapper aside{
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+}
+
+.secondary-navbar{
+    min-width: 10rem;
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+
+
+}
+.secondary-navbar ul{
+
+    padding: auto;
+}
+.secondary-navbar li{
+    list-style: none;
+
+}
+.secondary-navbar a{
+    color: #48e;
+    display: inline-block;
+    padding:  6px 10px;
+}
+aside:last-child{
+    min-width: 10rem;
+}
+/*footer*/
+footer{
+    margin-top: auto;
+    border: 1px solid #f00;
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+font-weight: bold;
+text-align: center;
+}
